@@ -4,34 +4,29 @@ using ThreadingLesson;
 
 public class Program
 {
+    private static ResultClass _resultClass = new ResultClass();
+    
     public static void Main(string[] args)
     {
-        var thread1 = new Thread(StartPrinter1);
-        var thread2 = new Thread(StartPrinter2);
-        
-        thread1.Start();
-        thread2.Start();
-
-        Console.ReadLine();
-    }
-
-    public static void StartPrinter1()
-    {
-        var printer1 = new NumberPrinter("Printer 1");
-        
-        while (true)
+        for (var i = 0; i < 4; i++)
         {
-            printer1.PrintNumber();
+            var trheadedPrinter = new NumberPrinter(_resultClass, $"{i}");
+            var thread = new Thread(trheadedPrinter.StartPrinting);
+            thread.Start();
         }
+
+        var resultThread = new Thread(PrintResult);
+        resultThread.Start();
+
+        Console.ReadKey();
     }
-    
-    public static void StartPrinter2()
+
+    public static void PrintResult()
     {
-        var printer2 = new NumberPrinter("Printer 2");
-        
         while (true)
         {
-            printer2.PrintNumber();
+            Console.WriteLine($"{ _resultClass.Message }");
+            Thread.Sleep(500);
         }
     }
 }

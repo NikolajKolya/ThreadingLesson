@@ -2,20 +2,31 @@
 
 public class NumberPrinter
 {
-    private int _number = 0;
-    private readonly string _instanceName;
     private readonly Random _random = new Random();
+    
+    private readonly ResultClass _resultClass;
+    private readonly string _printerName;
+    
 
-    public NumberPrinter(string instanceName)
+    public NumberPrinter(ResultClass resultClass, string printerName)
     {
-        _instanceName = instanceName;
+        _resultClass = resultClass;
+        _printerName = printerName;
+    }
+
+    public void StartPrinting()
+    {
+        while (true)
+        {
+            PrintNumber();
+        }
     }
     
     public void PrintNumber()
     {
-        Console.WriteLine($"{ _instanceName }: { _number }");
-        _number++;
+        var result = _random.Next(10);
+        _resultClass.SetMessage($"Result from printer { _printerName }: { result }");
         
-        Thread.Sleep(_random.Next(100, 5000));
+        Thread.Sleep(_random.Next(0, 1000));
     }
 }

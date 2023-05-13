@@ -1,0 +1,15 @@
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\bin\Debug\net7.0\ThreadingLesson.exe
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\bin\Debug\net7.0\ThreadingLesson.deps.json
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\bin\Debug\net7.0\ThreadingLesson.runtimeconfig.json
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\bin\Debug\net7.0\ThreadingLesson.dll
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\bin\Debug\net7.0\ThreadingLesson.pdb
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ThreadingLesson.csproj.AssemblyReference.cache
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ThreadingLesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ThreadingLesson.AssemblyInfoInputs.cache
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ThreadingLesson.AssemblyInfo.cs
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ThreadingLesson.csproj.CoreCompileInputs.cache
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ThreadingLesson.dll
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\refint\ThreadingLesson.dll
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ThreadingLesson.pdb
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ThreadingLesson.genruntimeconfig.cache
+C:\Users\Kaludjerovic\Desktop\Lessons\ThreadingLesson\ThreadingLesson\ThreadingLesson\obj\Debug\net7.0\ref\ThreadingLesson.dll
